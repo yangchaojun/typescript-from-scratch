@@ -1,20 +1,26 @@
 {
-  "name": "typescript-from-scratch",
-  "version": "1.0.0",
-  "description": "learn TypeScript from scratch",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yangchaojun/typescript-from-scratch.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yangchaojun/typescript-from-scratch/issues"
-  },
-  "homepage": "https://github.com/yangchaojun/typescript-from-scratch#readme"
+	"name": "typescript-from-scratch",
+	"version": "1.0.0",
+	"description": "learn TypeScript from scratch",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel ./src/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yangchaojun/typescript-from-scratch.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/yangchaojun/typescript-from-scratch/issues"
+	},
+	"homepage": "https://github.com/yangchaojun/typescript-from-scratch#readme",
+	"devDependencies": {
+		"less": "^3.11.1",
+		"parcel": "^1.12.4",
+		"parcel-plugin-clean-dist": "0.0.6",
+		"typescript": "^3.8.3"
+	}
 }
